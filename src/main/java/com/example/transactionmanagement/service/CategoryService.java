@@ -18,7 +18,6 @@ public class CategoryService {
     }
 
     public Category createCategory(Category category){
-        categoryRepository.save(category);
         return categoryRepository.save(category);
     }
 
